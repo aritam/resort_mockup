@@ -278,14 +278,25 @@ p {
   border-color: #f7c08a;
 }
 
-/* Footer */
-#main-footer {
-  text-align:center;
-  background: #444;
-  color:white; 
-  padding: 20px;
+
+.py-f { padding: 2rem 0}
+
+
+#home-footer {
+  background: var(--darkcolor);
+  color: white;
+}
+
+#home-footer .home-footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 4rem;
 }
 
 
-
-
+.footer2 {
+  text-align:center;
+  background: var(--darkcolor);
+  color:white; 
+  padding: 20px;
+}
